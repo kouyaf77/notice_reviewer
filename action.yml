@@ -1,0 +1,9 @@
+name: "Notice reviewer"
+description: "Notice reviewer to slack"
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
+inputs:
+  slack_hook_url:
+    description: "Message to comment"
+    required: true
