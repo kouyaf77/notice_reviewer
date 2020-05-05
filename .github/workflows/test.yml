@@ -6,6 +6,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: kouyaf77/notice_reviewer@v1
+      - uses: ./
         with:
           slack_hook_url: 'hoge'
