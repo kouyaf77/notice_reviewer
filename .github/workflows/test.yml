@@ -11,4 +11,4 @@ jobs:
       - run: npm install
       - uses: ./
         with:
-          slack_hook_url: 'hoge'
+          slack_hook_url: ${{ secrets.SLACK_HOOK_TEST_URL }}
